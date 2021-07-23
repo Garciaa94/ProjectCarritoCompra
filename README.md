@@ -73,4 +73,37 @@ revisar el archivo de dependencias [Paquetes](https://github.com/Garciaa94/Proye
     "nodemon": "^2.0.4"
   }
 ```
+# Mas Recursos
 
+Express.js
+Next.js https://www.youtube.com/watch?v=Pri0AHpLQA0&ab_channel=NavisCode
+Tailwind
+MongoDB
+
+`` = 127
+
+![image](https://drive.google.com/uc?export=view&id=IdImagen)
+
+Targeta: 4242 4242 4242 4242
+
+fecha: 08 / 24
+
+codigo 1: 123
+
+codigo 2:94107
+
+Iconos
+ npm i --save @fortawesome/fontawesome-svg-core  @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome @fortawesome/free-brands-svg-icons
+https://fontawesome.com/v5.15/icons?d=gallery
+
+facke API github para test 
+https://github.com/keikaavousi/fake-store-api
+https://fakestoreapi.com/
+
+Favicon 
+https://www.pngwing.com/es/free-png-bzxty/download
+
+Proyecto Principal
+```objective-c
+https://github.com/Garciaa94/ProyectoExpressJS
+```
