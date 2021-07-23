@@ -82,7 +82,10 @@ MongoDB
 
 `` = 127
 
-![image](https://drive.google.com/uc?export=view&id=IdImagen)
+![image](https://drive.google.com/uc?export=view&id=1Lsza83wZJ2cyHnnw_X5yV9fPe478noq9)
+
+Datos proporcionados en la SripDocs
+[![Documentacion Strip](https://drive.google.com/uc?export=view&id=1BFAhqz0L-bm9GG-xWTCt6R1TD1So-9mN)](https://stripe.com/docs/testing/)
 
 Targeta: 4242 4242 4242 4242
 
