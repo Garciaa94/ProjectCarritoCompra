@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET Lista de Usuarios. */
 router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+  res.send('responder con un recurso');
 });
 
 router.post('/', (req,res) => {

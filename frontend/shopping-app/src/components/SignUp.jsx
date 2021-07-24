@@ -162,8 +162,8 @@ const SignUp = (props) => {
                         </div>
                         <AddressForm />
                         <div className="clearfix">
-                            <button className="btn btn-info float-left" type="submit">Submit</button>
-                            <button className="btn btn-info float-right" type="reset">Reset</button>
+                            <button className="btn btn-info float-left" type="submit">Entregar</button>
+                            <button className="btn btn-info float-right" type="reset">Reiniciar</button>
                         </div>
                     </Form>
                 </Formik>

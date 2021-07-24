@@ -4,8 +4,10 @@ const Order = require('../models/Order')
 const Product = require('../models/Product')
 
 /* GET Lista de usuarios. */
-router.get('/', function(req, res, next) {
-  res.send('order');
+router.get('/', async (req, res, next)  => {
+  //res.send('order');
+  const itemsFromDB = await Order.find();
+  res.json(itemsFromDB);
 });
 
 
