@@ -51,13 +51,13 @@ const ProductDetails = ({ product, productAddedToCart, continueShopping, proceed
                             </div>
                             {(product.category !== "electronics" && product.category !== "jewelery") &&
                             <div className="mb-3">
-                                <h6>Size</h6>
-                                <DropDown title="Size" options={sizeOptions} onChange={onSizeChange}/>
+                                <h6>Monto</h6>
+                                <DropDown title="Tamaño" options={sizeOptions} onChange={onSizeChange}/>
                             </div>}
                             <div className="mb-3">
                                 <div className="row">
                                     <div className="col-md-6 mb-3">
-                                        <DropDown title="Quantity" options={quantityOptions} onChange={onQuantityChange}/>
+                                        <DropDown title="Cantidad" options={quantityOptions} onChange={onQuantityChange}/>
                                     </div>
                                     <div className="col-md-6 mb-3">
                                         <button className="btn btn-outline-info btn-block" onClick={productAddedToCart(product, quantity)}>
@@ -86,8 +86,8 @@ const ProductDetails = ({ product, productAddedToCart, continueShopping, proceed
                 </button>
                 </div> */}
                 <div className="clearfix">
-                    <button className="btn btn-outline-info float-left" onClick={continueShopping}>Continue Shopping</button>
-                    <button className="btn btn-outline-info float-right" onClick={proceedToCheckout}>Proceed to Checkout</button>
+                    <button className="btn btn-outline-info float-left" onClick={continueShopping}>Sigue comprando </button>
+                    <button className="btn btn-outline-info float-right" onClick={proceedToCheckout}>proceder a pago y envio </button>
                 </div>
             </div>
             : <div>No hay productos con el ID de producto dado </div>}
