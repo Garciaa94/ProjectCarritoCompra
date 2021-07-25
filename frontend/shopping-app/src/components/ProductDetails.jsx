@@ -62,7 +62,7 @@ const ProductDetails = ({ product, productAddedToCart, continueShopping, proceed
                                     <div className="col-md-6 mb-3">
                                         <button className="btn btn-outline-info btn-block" onClick={productAddedToCart(product, quantity)}>
                                             <span className="material-icons align-middle">shopping_cart</span>
-                                            AGregar a Carrito
+                                            Agregar a Carrito
                                         </button>
                                     </div>
                                 </div>

@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const FAKE_STORE_API = 'https://fakestoreapi.com';
+//const FAKE_STORE_API = 'https://fakestoreapi.com';
+const FAKE_STORE_API = 'http://localhost:3002';
 
 class FakeStoreService {
     getProducts() {
