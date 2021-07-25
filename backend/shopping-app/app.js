@@ -9,8 +9,9 @@ const db = require('./database')
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const signUpRouter = require('./routes/signUp');
-const loginRouter = require('./routes/login')
-const orderRouter = require('./routes/order')
+const loginRouter = require('./routes/login');
+const orderRouter = require('./routes/order');
+const productsRouter = require('./routes/products');
 
 const PORT = process.env.PORT || 3002;
 
@@ -34,6 +35,7 @@ app.use('/users', usersRouter);
 app.use('/signup', signUpRouter);
 app.use('/login', loginRouter);
 app.use('/order', orderRouter);
+app.use('/products', productsRouter);
 
 
 // error handler

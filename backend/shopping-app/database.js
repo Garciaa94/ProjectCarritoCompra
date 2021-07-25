@@ -6,12 +6,11 @@ const db = mongoose
         useUnifiedTopology: true
     })
     .then(() => {
+        const db = mongoose.connection; // boorrar
         console.log('DB connected')
     })
     .catch((err) => {
         console.log(err)
     });
-    //db.on('error', (error) => console.error(error));
-    //db.once('open', () => console.log('Conectado a BB.DD'));
 
 module.exports = db;
